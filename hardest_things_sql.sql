@@ -50,7 +50,7 @@ SELECT
                     GROUP_START, 
                     GROUP_END, 
                     T.* 
-FROM                GROUP_SPINE G 
+FROM                GROUP_SPINE G
 LEFT JOIN           My_First_Table T 
 ON                  sales_date >= G.GROUP_START 
 AND                 sales_date < G.GROUP_END 
